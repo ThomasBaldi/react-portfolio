@@ -7,10 +7,10 @@ import { StyledSideNav } from './styles';
 
 //CREATE ARRAY OF ROUTES NAMES AND PATHS
 const items = [
-	{ name: 'Me', path: '/' },
-	{ name: 'Projects', path: '/projects' },
-	{ name: 'Work', path: '/work' },
-	{ name: 'Education', path: '/education' },
+	{ name: 'Me', path: '/ThomasBaldi.github.io/' },
+	{ name: 'Projects', path: '/ThomasBaldi.github.io/projects' },
+	{ name: 'Work', path: '/ThomasBaldi.github.io/work' },
+	{ name: 'Education', path: '/ThomasBaldi.github.io/education' },
 ];
 
 const Sidebar = () => {
