@@ -1,15 +1,23 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import LogoTitle from '../../assets/images/logo-t.png';
 import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
+import Logo from './Logo';
 
 const Home = () => {
-    const [lettersClass /* setLetterClass */] = useState('text-animate');
+    const [lettersClass, setLetterClass] = useState('text-animate');
     const name = 'homas';
     const nameArray = Array.from(name);
     const job = 'a software developer.';
     const jobArray = Array.from(job);
+
+    useEffect(() => {
+        setTimeout(() => {
+            setLetterClass('text-animate-hover');
+        }, 4000);
+    }, []);
+
     return (
         <div className="container home-page">
             <div className="text-zone">
@@ -37,6 +45,7 @@ const Home = () => {
                     CONTACT
                 </Link>
             </div>
+            <Logo />
         </div>
     );
 };

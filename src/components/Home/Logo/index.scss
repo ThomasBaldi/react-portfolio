@@ -1,0 +1,38 @@
+@keyframes slideInFromRight {
+    0% {
+        transform: translateX(+100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.logo-container {
+    z-index: 0;
+    width: 400px;
+    height: 609px;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    bottom: 0;
+    left: auto;
+    margin: auto;
+    animation: 3.5s ease-out 0s 1 slideInFromRight;
+
+    .solid-logo {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        z-index: 1;
+
+        filter: grayscale(100%) sepia(100%) hue-rotate(90deg);
+
+        &:hover {
+            filter: none;
+        }
+    }
+}
