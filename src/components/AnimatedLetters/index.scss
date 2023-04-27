@@ -1,0 +1,15 @@
+@use 'sass:math';
+
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 0.7s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+}
+
+@for $i from 1 through 42 {
+    .text-animate._#{$i} {
+        animation-delay: #{math.div($i, 15)}s;
+    }
+}
