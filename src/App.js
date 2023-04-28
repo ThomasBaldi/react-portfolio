@@ -5,8 +5,8 @@ import Home from './components/Home';
 
 function App() {
     return (
-        <Routes basename="https://thomasbaldi.github.io">
-            <Route path="/" element={<Layout />}>
+        <Routes>
+            <Route to="/" element={<Layout />}>
                 <Route index element={<Home />} />
             </Route>
         </Routes>
