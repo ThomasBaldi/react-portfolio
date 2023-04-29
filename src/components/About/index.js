@@ -47,7 +47,7 @@ const About = () => {
                     for personal gratification.
                 </p>
                 <p>
-                    If I had to describe myself in a nuttshell, I'd say that I'm
+                    If I had to describe myself in a nutshell, I'd say that I'm
                     a family person, a proud father of a beautiful son, a nature
                     and travel lover, a skier in winter and a diver in summer,
                     and last but not least, as a true italo-norwegian, I talk
@@ -58,22 +58,22 @@ const About = () => {
 
             <div className="stage-cube-cont">
                 <div className="cubespinner">
-                    <div className="face1">
+                    <div id="face1" className="face">
                         <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
                     </div>
-                    <div className="face2">
+                    <div id="face2" className="face">
                         <FontAwesomeIcon icon={faNodeJs} color="#6CC24A" />
                     </div>
-                    <div className="face3">
+                    <div id="face3" className="face">
                         <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
                     </div>
-                    <div className="face4">
+                    <div id="face4" className="face">
                         <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
                     </div>
-                    <div className="face5">
+                    <div id="face5" className="face">
                         <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
                     </div>
-                    <div className="face6">
+                    <div id="face6" className="face">
                         <FontAwesomeIcon icon={faDocker} color="#0DB7ED" />
                     </div>
                 </div>

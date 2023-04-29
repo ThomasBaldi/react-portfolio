@@ -1,22 +1,14 @@
-@keyframes spincube {
-    from,
-    to {
-        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+@keyframes rotate {
+    0% {
+        transform: rotate3d(0, 0, 0, 0);
     }
-    16% {
-        transform: rotateY(-90deg) rotateZ(90deg);
-    }
-    33% {
-        transform: rotateY(-90deg);
-    }
-    50% {
-        transform: rotateY(-180deg) rotateZ(90deg);
-    }
-    66% {
-        transform: rotateY(-270deg) rotateX(90deg);
-    }
-    83% {
-        transform: rotateX(90deg);
+    100% {
+        transform: rotate3d(
+            1,
+            1,
+            0,
+            360deg
+        ); /*controls rotation amount on one axis) */
     }
 }
 
@@ -24,7 +16,7 @@
     width: 50%;
     height: 100%;
     top: 0;
-    padding-top: 18%;
+    padding-top: 15%;
     margin-left: 0;
     position: absolute;
     right: 0;
@@ -32,48 +24,48 @@
 }
 
 .cubespinner {
-    animation-name: spincube;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-duration: 12s;
+    position: absolute;
     transform-style: preserve-3d;
-    transform-origin: 100px 100px 0;
-    margin-left: calc(50% - 100px);
+    animation-name: rotate;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-left: 30%;
 
-    div {
+    .face {
         position: absolute;
         width: 200px;
         height: 200px;
-        border: 1px solid #ffd700;
-        background: #408377;
-        text-align: center;
-        font-size: 100px;
-        display: flex;
-        justify-content: center;
+        border: 5px outset #142a26;
+        border-radius: 10px;
+        background: #1d3d37;
         align-items: center;
+        justify-content: center;
+        font-size: 130px;
+        display: flex;
     }
 
-    .face1 {
+    #face1 {
         transform: translateZ(100px);
         color: #dd0031;
     }
-    .face2 {
+    #face2 {
         transform: rotateY(90deg) translateZ(100px);
         color: #f06529;
     }
-    .face3 {
+    #face3 {
         transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
         color: #28a4d9;
     }
-    .face4 {
+    #face4 {
         transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
         color: #5ed4f4;
     }
-    .face5 {
+    #face5 {
         transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
         color: #efd81d;
     }
-    .face6 {
+    #face6 {
         transform: rotateX(-90deg) translateZ(100px);
         color: #ec4d28;
     }
