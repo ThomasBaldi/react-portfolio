@@ -22,25 +22,16 @@
 
 .logo-container {
     z-index: 0;
-    max-width: 100%;
-    height: 90vh;
-    width: 60vh;
+    min-width: 120px;
+    width: 20vw;
+    max-width: 280px;
+    height: auto;
     position: absolute;
-    top: 20%;
-    right: 10%;
-    bottom: 0;
-    left: auto;
-    margin: auto;
     animation: 3.5s ease-out 0s 1 slideInFromRight;
 
     .solid-logo {
         position: absolute;
-        top: auto;
-        right: auto;
-        bottom: auto;
         left: 0;
-        margin: auto;
-        width: 100%;
         z-index: 1;
         filter: grayscale(100%) sepia(100%) hue-rotate(90deg);
         transition: filter 1s;

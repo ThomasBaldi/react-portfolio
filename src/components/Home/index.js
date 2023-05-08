@@ -49,7 +49,9 @@ const Home = () => {
                         CONTACT
                     </Link>
                 </div>
-                <Logo />
+                <div className="logoImg">
+                    <Logo />
+                </div>
             </div>
             <Loader type="square-spin" />
         </>
