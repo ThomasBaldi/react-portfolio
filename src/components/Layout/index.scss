@@ -7,6 +7,20 @@
     position: absolute;
 }
 
+.background {
+    content: '';
+    background-image: url('../../assets/images/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.01;
+}
+
 .top-tags {
     bottom: auto;
     top: 5vh;
@@ -17,7 +31,8 @@
     opacity: 0.6;
     position: absolute;
     bottom: 5vh;
-    left: 15vw;
+    left: 12vw;
+    margin-left: 10px;
     font-size: 18px;
     font-family: 'La Belle Aurore';
 }
@@ -37,6 +52,7 @@
 
 //FIX ALL SIZES TO RELY ON VW OR VH
 //fix boxing so that it fits inside the tags, always
+.container.projects-page,
 .container.about-page,
 .container.contact-page {
     h1 {
