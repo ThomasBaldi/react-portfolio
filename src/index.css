@@ -1,14 +1,15 @@
-html {
-    font-size: 62.5%;
-}
-
+html,
 body {
+    width: 100vw;
+    height: 100vh;
+    min-height: -webkit-fill-available;
     margin: 0;
     font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
     color: #444;
     background: #1e403a;
     overflow: hidden;
-    display: block;
+    position: fixed;
+
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }

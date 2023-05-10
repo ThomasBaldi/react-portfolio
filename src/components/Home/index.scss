@@ -1,29 +1,29 @@
 .home-page {
     margin-left: 6vw;
-    width: 100%;
+    width: 100vw;
     height: 50vh;
+    top: 25vh;
     position: relative;
     display: table;
-    top: 25vh;
 
     .text-zone {
-        left: 10%;
+        left: 7%;
         width: fit-content;
         overflow: hidden;
         min-width: 200px;
         display: table-column;
-        overflow: hidden;
         float: left;
         margin-bottom: -38px;
         margin-left: 10vw;
-        padding-right: 5vw;
     }
+
     h1 {
         color: #fff;
         font-size: 6.2vh;
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
+        margin-right: 4vw;
 
         img {
             width: 7vh;
@@ -39,6 +39,7 @@
     h2 {
         color: #9c9c9c;
         margin-top: 20px;
+        margin-right: 4vw;
         font-weight: 400;
         font-size: 2vh;
         font-family: sans-serif;
