@@ -13,59 +13,62 @@
 }
 
 .stage-cube-cont {
-    width: 50%;
-    height: 100%;
-    position: fixed;
+    width: 30vw;
+    height: 70vh;
+    position: absolute;
     top: 0;
-    right: 0;
+    right: 5%;
     overflow: hidden;
+    padding-right: 10vw;
+    /* margin-top: 37vh;
+    margin-bottom: 37vh; */
 }
 
 .cubespinner {
     position: absolute;
+    top: 22vh;
+    margin-left: 15vw;
     transform-style: preserve-3d;
     animation-name: rotate;
     animation-duration: 15s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
-    margin-left: 35%;
-    margin-top: 35%;
 
     .face {
         position: absolute;
-        width: 20vw;
-        height: 20vw;
+        width: 15vw;
+        height: 15vw;
         border: 5px outset #142a26;
         border-radius: 10px;
         background: #1d3d37;
         align-items: center;
         justify-content: center;
-        font-size: 10vw;
+        font-size: 7.5vw;
         display: flex;
     }
 
     #face1 {
-        transform: translateZ(10vw);
+        transform: translateZ(7.5vw);
         color: #dd0031;
     }
     #face2 {
-        transform: rotateY(90deg) translateZ(10vw);
+        transform: rotateY(90deg) translateZ(7.5vw);
         color: #f06529;
     }
     #face3 {
-        transform: rotateY(90deg) rotateX(90deg) translateZ(10vw);
+        transform: rotateY(90deg) rotateX(90deg) translateZ(7.5vw);
         color: #28a4d9;
     }
     #face4 {
-        transform: rotateY(180deg) rotateZ(90deg) translateZ(10vw);
+        transform: rotateY(180deg) rotateZ(90deg) translateZ(7.5vw);
         color: #5ed4f4;
     }
     #face5 {
-        transform: rotateY(-90deg) rotateZ(90deg) translateZ(10vw);
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(7.5vw);
         color: #efd81d;
     }
     #face6 {
-        transform: rotateX(-90deg) translateZ(10vw);
+        transform: rotateX(-90deg) translateZ(7.5vw);
         color: #ec4d28;
     }
 }
