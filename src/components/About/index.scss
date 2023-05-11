@@ -12,21 +12,37 @@
     }
 }
 
+@keyframes MoveUpDown {
+    0%,
+    100% {
+        transform: translateY(0vh);
+    }
+    50% {
+        transform: translateY(-60vh);
+    }
+}
+
 .stage-cube-cont {
     width: 30vw;
-    height: 70vh;
+    height: 60vh;
     position: absolute;
-    top: 0;
     right: 5%;
     overflow: hidden;
     padding-right: 10vw;
-    /* margin-top: 37vh;
-    margin-bottom: 37vh; */
+}
+
+.moveWrap {
+    position: absolute;
+    bottom: 0;
+    animation-name: MoveUpDown;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 .cubespinner {
     position: absolute;
-    top: 22vh;
+    bottom: 0;
     margin-left: 15vw;
     transform-style: preserve-3d;
     animation-name: rotate;
