@@ -101,21 +101,22 @@ const Contact = () => {
                         </form>
                     </div>
                 </div>
-                <div className="info-map">
-                    Thomas Baldi,
-                    <br />
-                    Norway
-                    <br />
-                    Søfteland, 5212
-                    <br />
-                    Bjørnafjorden
-                    <br />
-                    <span>baldithomas@hotmail.it</span>
-                </div>
+
                 <div className="map-wrap">
+                    <div className="info-map">
+                        Thomas Baldi,
+                        <br />
+                        Norway
+                        <br />
+                        Søfteland, 5212
+                        <br />
+                        Bjørnafjorden
+                        <br />
+                        <span>baldithomas@hotmail.it</span>
+                    </div>
                     <MapContainer
                         center={[60.23720542538086, 5.445941601438426]}
-                        zoom={10}
+                        zoom={9}
                     >
                         <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
                         <Marker

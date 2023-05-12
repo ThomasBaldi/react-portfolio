@@ -34,29 +34,33 @@ const About = () => {
                             idx={15}
                         />
                     </h1>
-                    <p>
-                        I'm an ambitious and curious person, born in the 90's,
-                        in the mists of the technologically revolutionary
-                        decade. Becoming a developer felt therefore like a
-                        natural choice and I am looking forward to kickstart my
-                        career as a developer in a role filled with challenges,
-                        variating technologies and diverse projects.
-                    </p>
-                    <p>
-                        I'm quietly confident, versatile by nature, and
-                        constantly working on improving my technical skill set
-                        and on learning new things in life, may it be for
-                        professional reasons or for personal gratification.
-                    </p>
-                    <p>
-                        If I had to describe myself in a nutshell, I'd say that
-                        I'm a family person, a proud father of a beautiful son,
-                        a nature and travel lover, a skier in winter and a diver
-                        in summer, and last but not least, as a true
-                        italo-norwegian, I talk from the heart (at times also
-                        with my hands), but pragmatically think about what I'll
-                        say first.
-                    </p>
+                    <div className="paragraphs">
+                        <p>
+                            I'm an ambitious and curious person, born in the
+                            90's, in the mists of the technologically
+                            revolutionary decade. Becoming a developer felt
+                            therefore like a natural choice and I am looking
+                            forward to kickstart my career as a developer in a
+                            role filled with challenges, variating technologies
+                            and diverse projects.
+                        </p>
+                        <p>
+                            I'm quietly confident, versatile by nature, and
+                            constantly working on improving my technical skill
+                            set and on learning new things in life, may it be
+                            for professional reasons or for personal
+                            gratification.
+                        </p>
+                        <p>
+                            If I had to describe myself in a nutshell, I'd say
+                            that I'm a family person, a proud father of a
+                            beautiful son, a nature and travel lover, a skier in
+                            winter and a diver in summer, and last but not
+                            least, as a true italo-norwegian, I talk from the
+                            heart (at times also with my hands), but
+                            pragmatically think about what I'll say first.
+                        </p>
+                    </div>
                 </div>
             </div>
             <div className="stage-cube-cont">
