@@ -58,46 +58,30 @@ const About = () => {
                         say first.
                     </p>
                 </div>
-
-                <div className="stage-cube-cont">
-                    <div className="moveWrap">
-                        <div className="cubespinner">
-                            <div id="face1" className="face">
-                                <FontAwesomeIcon
-                                    icon={faReact}
-                                    color="#5ED4F4"
-                                />
-                            </div>
-                            <div id="face2" className="face">
-                                <FontAwesomeIcon
-                                    icon={faNodeJs}
-                                    color="#6CC24A"
-                                />
-                            </div>
-                            <div id="face3" className="face">
-                                <FontAwesomeIcon
-                                    icon={faGitAlt}
-                                    color="#EC4D28"
-                                />
-                            </div>
-                            <div id="face4" className="face">
-                                <FontAwesomeIcon
-                                    icon={faCss3}
-                                    color="#28A4D9"
-                                />
-                            </div>
-                            <div id="face5" className="face">
-                                <FontAwesomeIcon
-                                    icon={faJsSquare}
-                                    color="#EFD81D"
-                                />
-                            </div>
-                            <div id="face6" className="face">
-                                <FontAwesomeIcon
-                                    icon={faDocker}
-                                    color="#0DB7ED"
-                                />
-                            </div>
+            </div>
+            <div className="stage-cube-cont">
+                <div className="moveWrap">
+                    <div className="cubespinner">
+                        <div id="face1" className="face">
+                            <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                        </div>
+                        <div id="face2" className="face">
+                            <FontAwesomeIcon icon={faNodeJs} color="#6CC24A" />
+                        </div>
+                        <div id="face3" className="face">
+                            <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                        </div>
+                        <div id="face4" className="face">
+                            <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                        </div>
+                        <div id="face5" className="face">
+                            <FontAwesomeIcon
+                                icon={faJsSquare}
+                                color="#EFD81D"
+                            />
+                        </div>
+                        <div id="face6" className="face">
+                            <FontAwesomeIcon icon={faDocker} color="#0DB7ED" />
                         </div>
                     </div>
                 </div>

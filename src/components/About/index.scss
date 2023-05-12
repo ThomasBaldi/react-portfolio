@@ -15,20 +15,21 @@
 @keyframes MoveUpDown {
     0%,
     100% {
-        transform: translateY(0vh);
+        transform: translateY(-5vh);
     }
     50% {
-        transform: translateY(-60vh);
+        transform: translateY(-55vh);
     }
 }
 
 .stage-cube-cont {
     width: 30vw;
-    height: 60vh;
+    height: 70vh;
     position: absolute;
+    top: 0;
     right: 5%;
-    overflow: hidden;
-    padding-right: 10vw;
+    overflow: visible;
+    padding-right: 3vw;
 }
 
 .moveWrap {
