@@ -4,17 +4,17 @@
     height: 50vh;
     top: 25vh;
     position: relative;
-    display: table;
 
     .text-zone {
         left: 7%;
+        min-width: 450px;
         width: fit-content;
         overflow: hidden;
         min-width: 200px;
-        display: table-column;
         float: left;
         margin-bottom: -38px;
         margin-left: 10vw;
+        margin-right: 0vw;
     }
 
     h1 {
@@ -23,7 +23,6 @@
         margin: 0;
         font-family: 'Coolvetica';
         font-weight: 400;
-        margin-right: 4vw;
 
         img {
             width: 7vh;
@@ -39,7 +38,6 @@
     h2 {
         color: #9c9c9c;
         margin-top: 20px;
-        margin-right: 4vw;
         font-weight: 400;
         font-size: 2vh;
         font-family: sans-serif;
@@ -66,19 +64,46 @@
     }
 
     .logoImg {
-        width: fit-content;
         float: right;
-        margin-right: 40vw;
-        display: table-column;
+        margin-right: 42vw;
     }
 }
 
-@media screen and (max-width: 570px) {
-    .home-page.text-zone {
-        float: left;
-        min-width: 100%;
+@media (max-width: 750px) {
+    .logoImg {
+        margin-top: -20vh;
+    }
+}
+
+@media (max-width: 720px) {
+    .logoImg {
+        margin-top: -60vh;
+    }
+}
+
+@media (min-width: 720px) and (min-height: 1180px) {
+    h2 {
+        max-width: 80vw;
     }
     .logoImg {
-        float: left;
+        margin-top: -45vh;
+    }
+}
+
+@media (max-width: 517px) {
+    .home-page.text-zone {
+        min-width: 100%;
+        h1 {
+            font-size: 10vw;
+        }
+        .logoImg {
+            margin-top: -60vh;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    h1 {
+        max-width: 31vh;
     }
 }
