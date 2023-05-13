@@ -2,6 +2,7 @@
     width: 100%;
     max-height: 10vh;
     margin-top: 0.2vh;
+    margin-left: 2vw;
 
     ul {
         padding: 0;
@@ -54,7 +55,7 @@
 
     textarea {
         width: 100%;
-        min-height: 15vw;
+        min-height: 12.5vw;
         border: 0;
         background: #33695f;
         font-family: 'Courier New';
@@ -62,6 +63,7 @@
         color: #fff;
         padding: 6px 20px 0 20px;
         box-sizing: border-box;
+        overflow-y: hidden;
     }
 
     .flat-button {
@@ -92,6 +94,7 @@
     width: 43%;
     height: 84%;
     position: absolute;
+    margin-left: 2vw;
     top: 5%;
     opacity: 0;
     animation: backInRight 1s 1.2s;
@@ -105,7 +108,7 @@
     right: 6%;
     z-index: 99999;
     width: 300;
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
     color: #fff;
     font-family: 'Helvetica';
     font-size: 14px;
@@ -116,7 +119,7 @@
     span {
         font-size: 14px;
         display: block;
-        padding-top: 20px;
+        padding-top: 10px;
         color: #ffd700;
     }
 }
