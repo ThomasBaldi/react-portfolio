@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8690c2eb.css",
-    "main.js": "/react-portfolio/static/js/main.0ca36caa.js",
-    "static/js/679.a967abf8.chunk.js": "/react-portfolio/static/js/679.a967abf8.chunk.js",
+    "main.css": "/react-portfolio/static/css/main.48dd81cc.css",
+    "main.js": "/react-portfolio/static/js/main.849fd2c5.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/background.jpg": "/react-portfolio/static/media/background.d07721584f3289cc1396.jpg",
     "static/media/profile2.jpg": "/react-portfolio/static/media/profile2.625d78cfd3500ed691c9.jpg",
     "static/media/helvetica-neu.ttf": "/react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "static/media/slick.svg": "/react-portfolio/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-portfolio/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-portfolio/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/react-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-portfolio/index.html",
-    "main.8690c2eb.css.map": "/react-portfolio/static/css/main.8690c2eb.css.map",
-    "main.0ca36caa.js.map": "/react-portfolio/static/js/main.0ca36caa.js.map",
-    "679.a967abf8.chunk.js.map": "/react-portfolio/static/js/679.a967abf8.chunk.js.map",
+    "main.48dd81cc.css.map": "/react-portfolio/static/css/main.48dd81cc.css.map",
+    "main.849fd2c5.js.map": "/react-portfolio/static/js/main.849fd2c5.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8690c2eb.css",
-    "static/js/main.0ca36caa.js"
+    "static/css/main.48dd81cc.css",
+    "static/js/main.849fd2c5.js"
   ]
 }
