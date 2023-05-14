@@ -32,6 +32,7 @@ const About = () => {
                             lettersClass={lettersClass}
                             strArray={strArr}
                             idx={15}
+                            unselectable="on"
                         />
                     </h1>
                     <div className="paragraphs">

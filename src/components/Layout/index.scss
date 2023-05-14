@@ -37,6 +37,14 @@
     font-family: 'La Belle Aurore';
 }
 
+.unselectable {
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
 .container {
     margin-left: 6vw;
     width: 100%;
@@ -50,7 +58,7 @@
 
     h1 {
         color: #ffd700;
-        font-size: 6vh;
+        font-size: 4.5vh;
         margin: 0;
         margin-bottom: 2vh;
         font-family: 'Coolvetica';
