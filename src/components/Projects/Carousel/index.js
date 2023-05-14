@@ -10,10 +10,15 @@ class Carousel extends Component {
         var settings = {
             dots: true,
             infinite: true,
-            speed: 500,
-            slidesToShow: 1,
+            speed: 1000,
+            slidesToShow: 3,
             slidesToScroll: 1,
             initialSlide: 0,
+            centered: true,
+            centerPadding: '10vw',
+            autoplay: true,
+            autoplaySpeed: 6000,
+            cssEase: 'linear',
             responsive: [
                 {
                     breakpoint: 1024,
@@ -44,14 +49,45 @@ class Carousel extends Component {
         return (
             <Slider {...settings} className="carousel">
                 <div className="slide-continer">
-                    <h3>1</h3>
+                    <a
+                        href="https://github.com/ThomasBaldi/ScraperNews"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <h2>ScraperNews</h2>
+                    </a>
                     <img className="carousel-image" src={LogoT} alt="" />
                 </div>
                 <div className="slide-continer">
-                    <h3>2</h3>
+                    <a
+                        href="https://github.com/ThomasBaldi/hotelProject"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <h2>Bookaroo</h2>
+                    </a>
+                    <img className="carousel-image" src={LogoT} alt="" />
                 </div>
                 <div className="slide-continer">
-                    <h3>3</h3>
+                    <a
+                        href="https://github.com/ThomasBaldi/react-portfolio"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        {' '}
+                        <h2>React Portfolio</h2>
+                    </a>
+                    <img className="carousel-image" src={LogoT} alt="" />
+                </div>
+                <div className="slide-continer">
+                    <a
+                        href="https://github.com/ThomasBaldi/first-react-app"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
+                        <h2>Mortgage Calculator</h2>
+                    </a>
+                    <img className="carousel-image" src={LogoT} alt="" />
                 </div>
             </Slider>
         );

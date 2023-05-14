@@ -1,15 +1,19 @@
 .carousel {
-    max-width: 80vw;
+    max-width: 78vw;
     height: 50vh;
     margin-left: 7vw;
     margin-right: 3vw;
 }
 
-.slick-slider.carousel.slick-initialized {
-    max-width: 80vw;
+/* .slick-slider.carousel.slick-initialized {
+    max-width: 78vw;
+}
+*/
+.slide-container {
+    width: 50vw;
 }
 
-.slide-container .slick-track {
+.slick-track {
     max-height: 50vh;
 }
 
@@ -18,8 +22,18 @@
 }
 
 .carousel-image {
-    margin: auto;
-    scale: 0.3;
+    object-fit: cover;
+    width: 20vw;
+    height: auto;
+}
+
+h2 {
+    color: #9c9c9c;
+    font-weight: 400;
+    font-size: 1vw;
+    font-family: sans-serif;
+    letter-spacing: 0.5vh;
+    animation: fadeIn 1s 1.8s backwards;
 }
 
 @media (min-width: 1020px) {
