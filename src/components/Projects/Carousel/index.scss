@@ -1,0 +1,30 @@
+.carousel {
+    max-width: 80vw;
+    height: 50vh;
+    margin-left: 7vw;
+    margin-right: 3vw;
+}
+
+.slick-slider.carousel.slick-initialized {
+    max-width: 80vw;
+}
+
+.slide-container .slick-track {
+    max-height: 50vh;
+}
+
+.slick-list {
+    max-height: 50vh;
+}
+
+.carousel-image {
+    margin: auto;
+    scale: 0.3;
+}
+
+@media (min-width: 1020px) {
+    .carousel {
+        margin-left: 0vw;
+        margin-right: 0vw;
+    }
+}
