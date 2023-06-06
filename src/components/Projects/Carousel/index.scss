@@ -9,9 +9,6 @@
     max-width: 78vw;
 }
 */
-.slide-container {
-    width: 50vw;
-}
 
 .slick-track {
     max-height: 50vh;
@@ -22,18 +19,43 @@
 }
 
 .carousel-image {
+    animation: fadeIn 1s 1.8s backwards;
+    border-radius: 10px;
     object-fit: cover;
-    width: 20vw;
-    height: auto;
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+    vertical-align: middle;
+    height: 38vh;
+    width: auto;
+    margin: auto;
 }
 
 h2 {
-    color: #9c9c9c;
+    color: #ecc900;
     font-weight: 400;
-    font-size: 1vw;
+    font-size: 2vh;
     font-family: sans-serif;
     letter-spacing: 0.5vh;
     animation: fadeIn 1s 1.8s backwards;
+    text-align: center;
+}
+
+h4 {
+    color: #a78e01;
+    font-weight: 400;
+    font-size: 2vh;
+    font-family: sans-serif;
+    letter-spacing: 0.5vh;
+    animation: fadeIn 1s 1.8s backwards;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 2px;
+}
+
+a {
+    text-decoration: none;
+    margin: auto;
 }
 
 @media (min-width: 1020px) {
