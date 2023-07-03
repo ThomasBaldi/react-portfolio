@@ -6,7 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import scraper from '../../../assets/images/scraperNews.jpg';
 import portfolio from '../../../assets/images/portfolio.jpg';
 import mortgage from '../../../assets/images/mortgage.jpg';
-import bookaroo from '../../../assets/images/bookaroo.jpg';
+import mementod from '../../../assets/images/mementod.jpg';
 
 class Carousel extends Component {
     render() {
@@ -75,15 +75,15 @@ class Carousel extends Component {
                 </div>
                 <div className="slide-continer">
                     <a
-                        href="https://github.com/ThomasBaldi/hotelProject"
+                        href="https://github.com/ThomasBaldi/Mementod"
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <h2>Bookaroo</h2>
-                        <img className="carousel-image" src={bookaroo} alt="" />
+                        <h2>Mementod</h2>
+                        <img className="carousel-image" src={mementod} alt="" />
                     </a>
                     <a
-                        href="https://github.com/ThomasBaldi/hotelProject"
+                        href="https://github.com/ThomasBaldi/Mementod"
                         target="_blank"
                         rel="noreferrer"
                     >
