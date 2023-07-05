@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.290822f8.css",
-    "main.js": "/react-portfolio/static/js/main.09cf92a6.js",
+    "main.js": "/react-portfolio/static/js/main.f7bf2326.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/mementod.jpg": "/react-portfolio/static/media/mementod.1b26815340e11a609118.jpg",
     "static/media/scraperNews.jpg": "/react-portfolio/static/media/scraperNews.8057c3a4e31b61ac0bd6.jpg",
-    "static/media/mementod.jpg": "/react-portfolio/static/media/mementod.b6573046b7e185a81227.jpg",
     "static/media/background.jpg": "/react-portfolio/static/media/background.d07721584f3289cc1396.jpg",
     "static/media/portfolio.jpg": "/react-portfolio/static/media/portfolio.3db65097a840f1d3c72e.jpg",
     "static/media/mortgage.jpg": "/react-portfolio/static/media/mortgage.a0ae20c47dc4e01a2d7a.jpg",
@@ -18,11 +18,11 @@
     "static/media/slick.woff": "/react-portfolio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-portfolio/index.html",
     "main.290822f8.css.map": "/react-portfolio/static/css/main.290822f8.css.map",
-    "main.09cf92a6.js.map": "/react-portfolio/static/js/main.09cf92a6.js.map",
+    "main.f7bf2326.js.map": "/react-portfolio/static/js/main.f7bf2326.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.290822f8.css",
-    "static/js/main.09cf92a6.js"
+    "static/js/main.f7bf2326.js"
   ]
 }
